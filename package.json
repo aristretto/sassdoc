@@ -93,7 +93,7 @@
     "rimraf": "^2.3.2",
     "safe-wipe": "0.*",
     "sass-convert": "^0.5.0",
-    "sassdoc-theme-default": "aristretto/sassdoc-theme-default#2.3.4-modified-for-css-support",
+    "sassdoc-theme-default": "aristretto/sassdoc-theme-default#2.3.5-modified-for-css-support",
     "scss-comment-parser": "aristretto/scss-comment-parser#0.6.0-modified-for-css-support",
     "through2": "^0.6.3",
     "update-notifier": "^0.3.0",
