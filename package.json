@@ -3,14 +3,14 @@
   "description": "Release the docs!",
   "author": {
     "name": "Hugo Giraudel",
-    "url": "http://hugogiraudel.com",
-    "email": "hugo.giraudel@gmail.com"
+    "email": "hugo.giraudel@gmail.com",
+    "url": "http://hugogiraudel.com"
   },
   "contributors": [
     {
       "name": "Fabrice Weinberg",
-      "url": "https://twitter.com/fweinb",
-      "email": "fabrice@weinberg.me"
+      "email": "fabrice@weinberg.me",
+      "url": "https://twitter.com/fweinb"
     },
     {
       "name": "Valérian Galliat",
@@ -93,8 +93,8 @@
     "rimraf": "^2.3.2",
     "safe-wipe": "0.*",
     "sass-convert": "^0.5.0",
-    "sassdoc-theme-default": "aristretto/sassdoc-theme-default#2.3.5-modified-for-css-support",
-    "scss-comment-parser": "aristretto/scss-comment-parser#0.6.0-modified-for-css-support",
+    "sassdoc-theme-default": "git+https://github.com/aristretto/sassdoc-theme-default#2.3.5-modified-for-css-support",
+    "scss-comment-parser": "git+https://github.com/aristretto/scss-comment-parser#0.6.0-modified-for-css-support",
     "through2": "^0.6.3",
     "update-notifier": "^0.3.0",
     "vinyl-fs": "^1.0.0",
@@ -115,5 +115,11 @@
   },
   "scripts": {
     "test": "make dist lint test"
-  }
+  },
+  "readme": "[![SassDoc](https://cdn.rawgit.com/SassDoc/sassdoc/master/assets/header.svg)](http://sassdoc.com)\n\n<br>\n[![Build Status][travis-image]][travis-url]\n[![Coverage Status][coveralls-image]][coveralls-url]\n[![Dependencies Status][depstat-image]][depstat-url]\n[![License][license-image]][license-url]\n[![Gitter][chat-image]][chat-url]\n\n[![NPM][npm-image]][npm-url]\n\n## Documentation\n\nHead to the [site][SassDoc] for extensive documentation.\n\n## Credits\n\n* [Valérian Galliat](https://twitter.com/valeriangalliat)\n* [Fabrice Weinberg](https://twitter.com/fweinb)\n* [Pascal Duez](https://twitter.com/pascalduez)\n* [Hugo Giraudel](http://twitter.com/HugoGiraudel)\n\n[SassDoc]: http://sassdoc.com\n[npm-url]: https://www.npmjs.com/package/sassdoc\n[npm-image]: https://nodei.co/npm/sassdoc.png?downloads=true\n[travis-url]: https://travis-ci.org/SassDoc/sassdoc?branch=master\n[travis-image]: http://img.shields.io/travis/SassDoc/sassdoc.svg?style=flat-square\n[coveralls-url]: https://coveralls.io/r/SassDoc/sassdoc?branch=master\n[coveralls-image]: https://img.shields.io/coveralls/SassDoc/sassdoc.svg?style=flat-square\n[depstat-url]: https://david-dm.org/SassDoc/sassdoc\n[depstat-image]: https://david-dm.org/SassDoc/sassdoc.svg?style=flat-square\n[license-image]: http://img.shields.io/npm/l/sassdoc.svg?style=flat-square\n[license-url]: LICENSE.md\n[chat-image]: https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square\n[chat-url]: https://gitter.im/SassDoc/sassdoc\n",
+  "readmeFilename": "README.md",
+  "_id": "sassdoc@2.1.9-modified-for-css-support",
+  "_shasum": "b383ed596998d2f952b4baf32e673979d5c1ccd9",
+  "_resolved": "git+https://github.com/aristretto/sassdoc#a5bb010ecfddb5f396f1a6935d4a63748b2bea67",
+  "_from": "sassdoc@git+https://github.com/aristretto/sassdoc#2.1.9-modified-for-css-support"
 }

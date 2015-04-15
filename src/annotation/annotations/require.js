@@ -41,7 +41,7 @@ export default function (env) {
     autofill(item) {
       let type = item.context.type;
 
-      if (type === 'mixin' || type === 'placeholder' || type === 'function') {
+      if (type === 'mixin' || type === 'placeholder' || type === 'function' || type === 'css') {
         let handWritten;
 
         if (item.require) {
